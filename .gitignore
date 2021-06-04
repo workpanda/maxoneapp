@@ -1,0 +1,17 @@
+.DS_Store
+.expo
+.expo/*
+.vscode
+*/*/src/assets/theme/*
+*/*/src/assets/fonts/*
+*/*/src/assets/images/*
+node_modules
+/yarn.lock
+/packages/maxone-app/src/navigation/tabbar.js
+/packages/maxone-app/src/navigation/navmap.js
+/packages/maxone-app/src/navigation/index.js
+/packages/maxone-app/src/screens/*/
+!/packages/maxone-app/src/screens/package.json
+/packages/maxone-app/src/constants/*/
+!/packages/maxone-app/src/constants/package.json
+/packages/maxone-app/.expo/packager-info.json

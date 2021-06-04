@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "PGC",
+    "slug": "pgc",
+    "scheme": "m1-pgc",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.10.7",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/appcore/icon.png",
+    "splash": {
+      "image": "./src/assets/images/appcore/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.maxone.pgc",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "The app needs permission to your camera in order to take photos for upload",
+        "NSPhotoLibraryUsageDescription": "The app needs permission to your camera roll in order to add photos you've already taken for upload"
+      }
+    },
+    "android": {
+      "package": "com.maxone.pgc",
+      "versionCode": 17,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}

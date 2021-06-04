@@ -1,0 +1,26 @@
+{
+  "name": "@maxone/wltg",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "wltg": "node cli.js"
+  },
+  "bin": {
+    "wltg": "./cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "commander": "^2.11.0",
+    "fs-extra": "^4.0.0",
+    "glob": "^7.1.2",
+    "inquirer": "^3.2.1",
+    "minimist": "^1.2.0",
+    "mv": "^2.1.1",
+    "replace": "^0.3.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}

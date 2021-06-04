@@ -1,0 +1,16 @@
+{
+  "main": "./packages/maxone-app/src/index.js",
+  "name": "maxone",
+  "version": "0.0.1",
+  "scripts": {
+    "start-ios": "expo start --ios",
+    "start-android": "expo start --android",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "postinstall": "expo-yarn-workspaces postinstall"
+  },
+  "dependencies": {
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
+  }
+}

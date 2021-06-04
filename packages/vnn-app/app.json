@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "VNN",
+    "slug": "vnn",
+    "scheme": "m1-vnn",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.0.8",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/appcore/icon.png",
+    "splash": {
+      "image": "./src/assets/images/appcore/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.gomaxone.m1-mobile.vnn",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "The app needs permission to your camera in order to take photos for upload",
+        "NSPhotoLibraryUsageDescription": "The app needs permission to your camera roll in order to add photos you've already taken for upload"
+      }
+    },
+    "android": {
+      "package": "com.gomaxone.m1mobile.vnn",
+      "versionCode": 8,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "description": ""
+  }
+}

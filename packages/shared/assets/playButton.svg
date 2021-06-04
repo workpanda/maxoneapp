@@ -1,0 +1,29 @@
+
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-15.4%" y="-15.4%" width="130.8%" height="130.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.806574192   0 0 0 0 0.806574192   0 0 0 0 0.806574192  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.0119387755 78 78 78 78 0 0.0119387755 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Video-with-Comment" transform="translate(-121.000000, -220.000000)">
+            <g id="Image" transform="translate(-1.000000, 73.000000)">
+                <g id="play-button" filter="url(#filter-1)" transform="translate(126.000000, 149.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M54.6316378,37.6312194 L33.1261224,22.92225 C32.45775,22.4287806 30.6746939,22.4287806 30.5316276,24.2910306 L30.5316276,53.7089694 C30.6902143,55.5712194 32.5051071,55.6030561 33.1261224,55.07775 L54.6316378,40.3687806 C55.1887806,40.0344949 55.9528622,38.6657143 54.6316378,37.6312194 L54.6316378,37.6312194 Z M33.8583673,50.5726531 L33.8583673,27.4273469 L50.7475561,39 L33.8583673,50.5726531 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-3)"></path>
+                    <path d="M39,0 C17.4946837,0 0,17.4946837 0,39 C0,60.5053163 17.4946837,78 39,78 C60.5053163,78 78,60.5053163 78,39 C78,17.4946837 60.5053163,0 39,0 L39,0 Z M39,74.6732602 C19.3250969,74.6732602 3.3267398,58.6749031 3.3267398,39 C3.3267398,19.3250969 19.3250969,3.3267398 39,3.3267398 C58.6749031,3.3267398 74.6732602,19.3250969 74.6732602,39 C74.6732602,58.6749031 58.6749031,74.6732602 39,74.6732602 L39,74.6732602 Z" id="Fill-3" fill="#FFFFFF" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
